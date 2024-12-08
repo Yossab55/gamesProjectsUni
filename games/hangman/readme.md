@@ -1,4 +1,4 @@
-#Hang man game 
+# Hang man game 
 https://youtu.be/ZFb_eaYtWwY?si=xg1p8LLi91haz6ML
 ossam el zero made this game if you want 
 see first 10 minutes for better understanding
