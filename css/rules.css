@@ -4,6 +4,9 @@ html {
 body {
   box-sizing: border-box;
   /* font if we want to use a stander font */
+  font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 ul {
   list-style: none;
