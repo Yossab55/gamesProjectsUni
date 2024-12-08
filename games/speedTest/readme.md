@@ -1,7 +1,6 @@
 # speed test game 
 https://youtu.be/KRj4DFBTBkA?si=egMkDz49KeR-eAjB
-## Note : see last five minutes
-to understand how it goes 
+## Note : see last five minutes to understand how it goes 
 
 ## Game's Structure
 
