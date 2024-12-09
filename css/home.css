@@ -20,6 +20,11 @@
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 40px;
 }
+@media (max-width: 768px) {
+  .container .holder {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+}
 .container .holder .box {
   position: relative;
 }
@@ -29,7 +34,6 @@
   padding: 4px 8px;
   font-size: 30px;
   font-weight: bold;
-  width: 100%;
   height: 250px;
   border-radius: 15px;
   border: 1px solid #eee;
@@ -39,6 +43,11 @@
   transition: var(--main-transition);
   position: relative;
   z-index: 2010;
+}
+@media (max-width: 768px) {
+  .container .holder .box .game {
+    font-size: 20px;
+  }
 }
 .container .holder .box .game .overlay {
   position: absolute;
