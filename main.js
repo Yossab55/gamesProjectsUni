@@ -64,7 +64,7 @@ function getTheSameStyleInLocalStorage() {
 }
 function getInvertStyleOfTheLocalStorage() {
   let style = getTheSameStyleInLocalStorage();
-  if (style === "white") return "black";
+  if (style === "white") return "#1d1c1c";
   else return "white";
 }
 function makeTheButton() {
@@ -101,7 +101,7 @@ function buttonCSSStyle() {
 function switchTheThemeInLocalStorage() {
   let localStorage = window.localStorage;
   if (getTheSameStyleInLocalStorage() == 'white')
-    localStorage.setItem("style", "black");
+    localStorage.setItem("style", "#1d1c1c");
   else localStorage.setItem("style", "white");
 }
 function removeOldChildFrom(button) {
