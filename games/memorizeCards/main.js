@@ -128,11 +128,5 @@ document.querySelector(".control-buttons span").onclick = function () {
   
     return array;
   }
-  function playAgain() {
-    // Logic to reset the game can be added here
-    alert("Starting a new game!");
-    // For example, you might want to reload the page
-    location.reload();
-}
 
 
