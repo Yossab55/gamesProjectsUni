@@ -1,9 +1,6 @@
 * {
     box-sizing: border-box;
   }
-  body {
-    font-family: Arial, Tahoma, sans-serif;
-  }
   .control-buttons {
     position: fixed;
     left: 0;
