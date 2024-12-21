@@ -16,6 +16,7 @@ document.querySelector(".control-buttons span").onclick = function () {
   
     // Remove Splash Screen
     document.querySelector(".control-buttons").remove();
+    document.getElementById("background-audio").play();
   };
   
   // Effect Duration
@@ -90,6 +91,8 @@ document.querySelector(".control-buttons span").onclick = function () {
       secondBlock.classList.add("has-match");
   
       document.getElementById("success").play();
+      document.getElementById("background-audio").play();
+      
     } else {
       triesElement.innerHTML = parseInt(triesElement.innerHTML) + 1;
   
@@ -128,5 +131,9 @@ document.querySelector(".control-buttons span").onclick = function () {
   
     return array;
   }
+ 
 
 
+  
+
+  

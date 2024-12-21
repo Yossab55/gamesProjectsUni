@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    width: auto;
   }
   body {
     font-family: Arial, Tahoma, sans-serif;
@@ -27,7 +28,7 @@
     cursor: pointer;
   }
   .info-container {
-    width: 1080px;
+    width: auto;
     margin: 20px auto 0;
     background-color: #f6f6f6;
     padding: 20px;
@@ -47,7 +48,7 @@
   }
   .memory-game-blocks {
     display: flex;
-    width: 1100px;
+    width: auto;
     flex-wrap: wrap;
     margin: 20px auto;
   }
@@ -97,3 +98,9 @@
     transform: rotateY(180deg);
     pointer-events: none;
   }
+  .game-block.has-match{
+    visibility: hidden;
+  }
+ audio{
+  display: none;
+ }
