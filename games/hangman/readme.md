@@ -1,33 +1,29 @@
-# Hang man game 
-https://youtu.be/ZFb_eaYtWwY?si=xg1p8LLi91haz6ML
-ossam el zero made this game if you want 
-see first 10 minutes for better understanding
+# speed test game 
+https://youtu.be/KRj4DFBTBkA?si=egMkDz49KeR-eAjB
+## Note : see last five minutes to understand how it goes 
 
-## steps 
-1- make an array of array [[], [], []]
+## Game's Structure
 
---- note try to get word with out space ex: mango not saudi arabia
+first make a list of words 
 
---- note or if you want to add saudi arabia then give hint to the player
+then shuffle it every time he plays 
 
-2- every array make it special with it's category ex: [[country], [fruits], [animals]]
+make input text field 
 
-3- chose randomly a category then chose randomly an item 
+show to him the world 
 
-ex :
-[[Egypt, SA] , [mango, peach]] => egypt 
+show to him upcoming word 
 
-then make boxes with the length for the world egypt length = 5
+if he made a mistake game over 
 
-make for the player the all characters a-z 
+if not increment the score and keep going 
 
-make it one case capital or small as you wish 
+if he finishes every word congratulation 
 
-if he used a character he can't used it again 
+make three level 
 
--- ex if he press a he can't press a again 
+hard with 1 seconds for every world 
 
-hangman game off the top of my head it gives 8 tries 
-
-if he get the world then show to him congratulation 
-if not show to him wrong answer the world is .....  
+normal with 3 seconds for every world
+easy with 5 seconds for every world
+or really what ever you want it's up to you

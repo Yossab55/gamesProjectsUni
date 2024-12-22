@@ -1,0 +1,72 @@
+body {
+  text-align: center;
+}
+.container h2 {
+  padding-top: 60px;
+  margin-bottom: 40px;
+}
+.container input[type="text"] {
+  width: 80%;
+  height: 60px;
+  border: solid 1px rgb(39, 134, 229);
+  border-radius: 20px;
+  margin-bottom: 40px;
+  font-size: 30px;
+  text-align: center;
+}
+.container input[type="text"]:focus {
+  border: solid 1px rgb(39, 134, 229);
+  outline: none;
+}
+.container .current-word {
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+.container .current-word p {
+  margin: 0;
+}
+.container .upcoming-words {
+  margin-bottom: 15px;
+  border: solid 1px rgb(39, 134, 229);
+  border-radius: 15px;
+  padding: 10px;
+}
+.container .upcoming-words .label-hint {
+  margin-bottom: 5px;
+  margin-top: -10px;
+  margin-right: auto;
+  margin-left: auto;
+  width: fit-content;
+  background: rgb(39, 134, 229);
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+
+}
+.container .upcoming-words .words {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.container .upcoming-words .words .word:not(:last-child) {
+  margin-right: 10px;
+}
+.container .upcoming-words .words .word {
+  padding: 8px 12px;
+  border-radius: 10px;
+  color: white;
+  font-size: 25px;
+  background-color: rgb(39, 134, 229);
+}
+.container .information {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .information #time {
+  margin-left: 20px;
+}
+.container .information #score {
+  margin-right: 20px;
+}
