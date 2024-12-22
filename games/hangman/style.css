@@ -3,10 +3,6 @@
    box-sizing: border-box;
 }
 
-body {
-   font-family: Tahoma, Arial;
-}
-
 .container {
    margin: 20px auto;
    width: 1000px;
