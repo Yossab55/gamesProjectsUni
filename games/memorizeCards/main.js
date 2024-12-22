@@ -92,7 +92,7 @@ document.querySelector(".control-buttons span").onclick = function () {
   
       document.getElementById("success").play();
       document.getElementById("background-audio").play();
-      
+       
     } else {
       triesElement.innerHTML = parseInt(triesElement.innerHTML) + 1;
   
@@ -103,6 +103,7 @@ document.querySelector(".control-buttons span").onclick = function () {
   
       document.getElementById("fail").play();
     }
+    finish();
   }
   
   // Shuffle Function
@@ -131,9 +132,10 @@ document.querySelector(".control-buttons span").onclick = function () {
   
     return array;
   }
- 
-
-
-  
-
-  
+function finish() {
+  if(document.querySelectorAll('.has-match').length === 20) {
+    const congratsdiv=document.getElementById("congratulation-message");
+    congratsdiv.style.display="block";
+    document.getElementById("background-audio").pause();
+  }
+}
